@@ -1,4 +1,5 @@
 {
   "oneDarkPro.editorTheme": "One Dark Pro Night Flat",
-  "oneDarkPro.vivid": true
+  "oneDarkPro.vivid": true,
+  "editor.fontWeight": "normal"
 }
