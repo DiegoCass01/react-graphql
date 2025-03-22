@@ -88,4 +88,4 @@ const MovieList = [
   },
 ];
 
-export default { UserList, MovieList };
+export { UserList, MovieList };
