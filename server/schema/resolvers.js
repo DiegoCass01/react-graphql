@@ -1,5 +1,5 @@
 import { UserList } from "../FakeData.js";
-import { has } from "lodash-es";
+import { find } from "lodash-es";
 
 const resolvers = {
   Query: {
@@ -8,9 +8,8 @@ const resolvers = {
     },
     user: (parent, args) => {
       const id = args.id;
-      const user = has.find();
-
-      return;
+      const user = find(UserList, { id: Number(id) });
+      return user;
     },
   },
 };
